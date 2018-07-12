@@ -5,6 +5,6 @@ export const Button = ({
   ...props
 }: React.ButtonHTMLAttributes<HTMLButtonElement>) => (
   <span className="button-container">
-    <button {...props}>Hello: {children}</button>
+    <button {...props}>Hello {children} !</button>
   </span>
 );

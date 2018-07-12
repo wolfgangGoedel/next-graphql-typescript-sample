@@ -1,16 +1,14 @@
 {
-  "name": "@sfeir-next/gql-server",
+  "name": "@sfeir-next/next-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "json-graphql-server db.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-graphql-server": "^2.1.1"
+    "source-map-loader": "^0.2.3"
   }
 }

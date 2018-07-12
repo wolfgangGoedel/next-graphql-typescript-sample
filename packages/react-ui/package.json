@@ -1,5 +1,5 @@
 {
-  "name": "@lh/ui",
+  "name": "@sfeir-next/react-ui",
   "version": "1.0.0",
   "description": "",
   "module": "dist/index.js",
@@ -9,10 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Wolfgang Goedel <goedel.w@sfeir.com>",
   "license": "ISC",
-  "dependencies": {
-    "ts-lib": "^0.0.5",
+  "devDependencies": {
     "typescript": "^2.9.2"
   }
 }
