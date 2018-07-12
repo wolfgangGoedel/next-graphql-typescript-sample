@@ -1,10 +1,10 @@
-import { ButtonHTMLAttributes } from "react";
+import React from "react";
 
 export const Button = ({
   children,
   ...props
-}: ButtonHTMLAttributes<HTMLButtonElement>) => (
+}: React.ButtonHTMLAttributes<HTMLButtonElement>) => (
   <span className="button-container">
-    <button {...props}>Say: {children}</button>
+    <button {...props}>Hello: {children}</button>
   </span>
 );

@@ -3,10 +3,11 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "strict": true,
     "outDir": "dist",
     "sourceMap": true,
     "declaration": true,
-    "jsx": "preserve"
+    "jsx": "react"
   }
 }
