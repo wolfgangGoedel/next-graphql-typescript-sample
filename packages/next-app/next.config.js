@@ -1,4 +1,8 @@
 const withTM = require("@weco/next-plugin-transpile-modules");
-module.exports = withTM({
-  transpileModules: ["@lh"]
-});
+const withTypeScript = require("@zeit/next-typescript");
+
+module.exports = withTypeScript(
+  withTM({
+    transpileModules: ["@lh"]
+  })
+);
